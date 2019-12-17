@@ -26,6 +26,7 @@
     <modules>
         <module>spring-clound</module>
         <module>springboot</module>
+        <module>spring-gateway</module>
     </modules>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
