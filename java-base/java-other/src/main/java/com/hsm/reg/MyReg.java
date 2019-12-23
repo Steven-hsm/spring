@@ -1,3 +1,5 @@
+package com.hsm.reg;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -6,7 +8,7 @@ import java.util.regex.Pattern;
 /**
  * @Auther: huangsenming
  * @Date: 2019/12/19 11:43
- * @Description: 正则测试
+ * @Description: 正则测试,替换图片地址
  */
 public class MyReg {
     public static String imgStr = "<img title=\"微信图片_20190909160200.jpg\" style=\"float:none;\" " +
