@@ -25,7 +25,7 @@
     </properties>
     <modules>
         <module>spring-clound</module>
-        <module>springboot</module>
+        <module>spring-boot</module>
         <module>spring-gateway</module>
         <module>java-base</module>
     </modules>
