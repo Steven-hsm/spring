@@ -46,7 +46,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
+            <!-- 将程序运行在maven容器中 -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
