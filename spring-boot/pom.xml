@@ -10,20 +10,28 @@
         <version>1.0</version>
     </parent>
     <groupId>com.hsm</groupId>
-    <artifactId>springboot</artifactId>
+    <artifactId>spring-boot</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <!-- 子模块 -->
     <modules>
-        <module>spirng-boot-01-helloworld</module>
+        <module>spring-boot-01-helloworld</module>
+        <module>spring-boot-02-filter</module>
+        <module>spring-boot-03-redis</module>
     </modules>
 
     <!-- 依赖包 -->
     <dependencies>
+        <!-- web项目 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- 测试项目 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
 
@@ -38,7 +46,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
+            <!-- 将程序运行在maven容器中 -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

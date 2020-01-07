@@ -27,7 +27,7 @@
         <!-- spring clound -->
         <module>spring-clound</module>
         <!-- spring boot -->
-        <module>springboot</module>
+        <module>spring-boot</module><module>springboot</module>
         <!-- spring 网关 -->
         <module>spring-gateway</module>
         <module>java-base</module>
@@ -42,6 +42,18 @@
 			<version>1.18.10</version>
 			<scope>provided</scope>
 		</dependency>
+        <!-- junit 4.12 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- spring boot test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+        </dependency>
 	</dependencies>
 
     <build>

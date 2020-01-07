@@ -21,7 +21,7 @@ public class MysqlConnect {
         Statement stmt = null;
         try{
             // 注册 JDBC 驱动
-            Class.forName(JDBC_DRIVER)
+            Class.forName(JDBC_DRIVER);
 
             // 打开链接
             System.out.println("连接数据库...");
