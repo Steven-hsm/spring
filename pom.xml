@@ -27,7 +27,7 @@
         <!-- spring clound -->
         <module>spring-clound</module>
         <!-- spring boot -->
-        <module>spring-boot</module><module>springboot</module>
+        <module>spring-boot</module>
         <!-- spring 网关 -->
         <module>spring-gateway</module>
         <module>java-base</module>
