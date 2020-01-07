@@ -24,10 +24,15 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <modules>
+        <!-- spring clound -->
         <module>spring-clound</module>
+        <!-- spring boot -->
         <module>springboot</module>
+        <!-- spring 网关 -->
         <module>spring-gateway</module>
         <module>java-base</module>
+        <!-- 架构 -->
+        <module>construct</module>
     </modules>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
